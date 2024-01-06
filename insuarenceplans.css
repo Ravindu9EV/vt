@@ -1,0 +1,81 @@
+body
+{
+    background-image: url(firewatch-wallpaper-2560x1440.jpg);
+    display: flex;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.insuarence_plans
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+    position: absolute;
+    left: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+.fieldset
+{
+    position: absolute;
+    width: 500px;
+    top: 18%;
+    left: 5%;
+    display: inline-block;
+    margin: 80px;
+    color: rgb(200, 200, 196);
+    font-size: larger;
+}
+
+.legend
+{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.full_option
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    text-align: center;
+    font-size: 65px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.full_option :hover 
+{
+    transition-duration: 0.50s;
+    color: rgb(255, 255, 255);
+}
+
+.third_party
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    font-size: 65px;
+    
+    color: rgb(255, 255, 255);
+}
+
+.third_party :hover 
+{
+    transition-duration: 0.50s;
+    color: rgb(255, 255, 255);
+}

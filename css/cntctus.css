@@ -1,0 +1,123 @@
+
+body{
+    background-image: url(image/firewatch-wallpaper-2560x1440.jpg);
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+   
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.homebtn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.homebtn button{
+    
+    flex-direction: row;
+    margin-right: 10px;
+    position: relative;
+    top: 20px;
+    right: -650px;
+    float: left;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+
+.hOffice,.hotlines,.logins,.smedia{
+    margin: 30px;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.cContainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.heading{
+    position: relative;
+    text-align: center;
+}
+
+.heading h1{
+    font-size: 68px;
+}
+
+.ctitle{
+    font-size: 24px;
+}
+
+.cbody{
+    margin-top: 30px;
+    padding-top: 30px;
+    background-image: #ff7d4f;
+    backdrop-filter: blur(28px);
+    width: 200px;
+    height: 250px;
+    border: 1px solid #7c0032;
+    backdrop-filter: blur(16px);
+}
+.cbody a{
+    
+    margin: 5px;
+    display: flow-root;
+    /* justify-content: space-around; */
+    text-decoration: none;
+    padding: 5px;
+}
+
+.logins .cbody a{
+    margin: 10px;
+    display: flow-root;
+    
+    padding: 5px;
+}
+
+.smedia .cbody a{
+    margin: 10px;
+    display: flow-root;
+   
+    padding: 5px;
+}
+@media 
+(max-width:699px) {
+    .cContainer{
+        display: block;
+       align-items: center;
+        
+        margin: 60px;
+        
+        
+    }
+    .logins,.hotlines,.hOffice,.smedia{
+        display: block;
+        margin: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .homebtn .heading  button{
+        display: flex;
+        left: 300px;
+        
+        margin: 30px;
+        align-items: center;
+        
+    }
+}

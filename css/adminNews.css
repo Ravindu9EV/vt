@@ -1,0 +1,176 @@
+body{
+    background-image: url(image/firewatch-wallpaper-2560x1440.jpg);
+    display: flex;
+    
+    background-repeat: no-repeat;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container{
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    float: none;
+}
+.heading{
+    margin: 40px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.content{
+    margin: 40px;
+    width: 100%;
+    height: 450px;
+    margin-right: 40px;
+    align-items: center;
+   margin-top: 50px;
+    /* opacity: 0.2; */
+    
+    background-color: rgba(42, 44, 45, 0.116);
+    align-items: center;
+    backdrop-filter: blur(18px);
+    /* -webkit-filter: blur(18px); */
+    /* -moz-filter: blur(18px); */
+    /* -o-filter: blur(18px);
+    -ms-filter: blur(18px); */
+}
+
+.blayer{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    resize: vertical;
+    
+}
+
+.backbtn{
+    float: left;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.backbtn button{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+
+.backbtn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.addnbtn{
+    float: right;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.addnbtn button{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    border-bottom: 2px solid silver;
+    float: right;
+    
+}
+
+
+
+.addnbtn a{
+    color: white;
+    text-decoration: none;
+}
+.homebtn{
+   float: right;
+    margin-right: 10px;
+    top: 0;
+}
+
+.homebtn {
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    border-bottom: 2px solid silver;
+}
+
+.homebtn a{
+    text-decoration: none;
+    color: white;
+}
+
+@media 
+(max-width:800px) {
+
+
+    .container{
+        
+        display: inline-block;
+        align-items: center;
+        flex-direction: row;
+        margin: 60px;
+        resize: vertical;
+        justify-content: center;
+    }
+    
+
+    .heading{
+        overflow: visible;
+        display:inline-flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        resize: vertical;
+    }
+
+  
+
+    .blayer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+        justify-content: space-around;
+    }
+
+    .addbtn,.backbtn{
+        align-items: center;
+    }
+    
+
+    
+
+    .content{
+        display: flex;
+        flex-direction: row;
+       
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h1{
+        margin-left: 20px;
+        text-align: center;
+    }
+}

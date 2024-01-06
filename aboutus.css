@@ -1,0 +1,39 @@
+body
+{
+    background-image: url(firewatch-wallpaper-2560x1440.jpg);
+    display: flex;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.company_name
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    width: 900px;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    position: absolute;
+    left: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+.fieldset
+{
+    position: relative;
+    width: 300px;
+    top: 19%;
+    left: 105px;
+    display: inline-block;
+    margin: 50px;
+    color: rgb(97, 95, 95);
+    font-size: larger;
+}
+
+.legend
+{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}

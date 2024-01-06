@@ -1,0 +1,58 @@
+body
+{
+    background-image: url(firewatch-wallpaper-2560x1440.jpg);
+    display: flex;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.insuarence_plans
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+    position: absolute;
+    left: 20%;
+    color: white;
+    font-weight: bolder;
+}
+
+.details
+{
+    position: absolute;
+    width: 500px;
+    top: 18%;
+    left: 5%;
+    display: inline-block;
+    margin: 80px;
+    color: rgb(200, 200, 196);
+    font-size: larger;
+}
+.legend_details
+{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+
+.benifits
+{
+    position: absolute;
+    width: 500px;
+    top: 18%;
+    right: 5%;
+    display: inline-block;
+    margin: 80px;
+    color: rgb(200, 200, 196);
+    font-size: larger;
+}
+.legend_benifits
+{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+

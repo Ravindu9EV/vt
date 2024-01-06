@@ -1,0 +1,116 @@
+body{
+    background-image: url(image/firewatch-wallpaper-2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profbtn{
+    float: right;
+    margin: 20px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h2{
+    font-size: 34px;
+}
+
+.left{
+    text-align: center;
+    color: rgb(86, 93, 93);
+    /* flex-direction: column; */
+    margin: 40px;
+}
+
+.right{
+    text-align: center;
+    color: rgb(86, 93, 93);
+    margin: 40px;
+}
+.boxl{
+    width: 400px;
+    height: 500px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.boxr{
+    width: 400px;
+    height: 500px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid silver;
+}
+
+
+
+button:hover{
+    
+    color: red;
+    
+
+}
+
+@media (max-width:768px){
+    .container{
+        display: block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        flex-direction: row;
+        resize: vertical;
+    }
+    .left{
+        display: inline-flex;
+        margin: 30px;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+        align-items: center;
+        overflow: scroll;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .right{
+        display: inline-flex;
+        margin: 30px;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+        align-items: center;
+        overflow: scroll;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    h2{
+        display: inline-flex;
+        text-align: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}

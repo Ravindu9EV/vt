@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            ROAD PRO INSUARANCE
+        </title>
+        <link rel="stylesheet"href="web.css">
+    </head>
+    <body>
+        <div class="image">
+        <img src="0001.jpeg" alt="Company logo" style="width:200px">
+        </div>
+        <div class="Registration form">
+            
+            <h1 class="h1">Third-Party Insuarance Registration</h1>
+            <form id="Regform_third_party">
+            <fieldset class="fieldset_width">
+                <legend class="legend">Fill This Form For Registration</legend>
+            </fieldset>
+                <div class="row">
+                    
+                        <div class="column1">
+                    
+                            <div class="form1">
+                                <label for="Owner's name">Owner's Name</label><br>
+                                <input class="box1" type="text" id="Owner's name" required><br>
+                            
+                                <label for="Owner's ID Number">Owner's ID Number</label><br>
+                                <input class="box1" type="text" id="Owner's ID Number" required><br>
+                            
+                                <label for="Owner's Birthday">Owner's Birthday</label><br>
+                                <input class="box1" type="date" id="Owner's Birthday" required><br>
+                            
+                                <label for="Owner's Email">Owner's Email</label><br>
+                                <input class="box1" type="email" id="Owner's Email" required><br>
+                            
+                                <label for="Owner's PhoneNumber">Owner's Phone Number</label><br>
+                                <input class="box1" type="tel" id="Owner's PhoneNumber" required><br>
+                            </div>
+                            <div>
+                                <button class="bt1" type="button" onclick="">Policies</button>
+                            </div>
+                            <div>
+                                <div class="bt2">
+                                    <label for="myCheck" >I have read and the agree with the terms and policies</label>
+                                    <input type="checkbox" id="myCheck" onclick="myFunction()" required>
+                                </div> 
+                                
+
+                                <script>
+                                function myFunction() {
+                                var checkBox = document.getElementById("myCheck");
+                                var text = document.getElementById("text");
+                                if (checkBox.checked == true){
+                                    text.style.display = "block";
+                                } else {
+                                    text.style.display = "none";
+                                }
+                                }
+                                </script>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="column2">
+                        
+                            <!--<p class="vehicle_details">*Fill This Part Using Certificate Of Registration Of Motor Vehicle</p>-->
+                            <label for="Vehicle Category">Vehicle Category</label><br>
+                            <select class="box2" id="Vehicle Category" name="Vehicle Category" required><br>
+                                <option value="Select one"></option>
+                                <option value="Light motor cycles">Light motor cycles(Under 100cc)</option>
+                                <option value="Motorcycles">Motorcycles(Exceeds 100cc)</option>
+                                <option value="Motor Tricycle">Motor Tricycle</option>
+                                <option value="Dual purpose Motor vehicle">Dual purpose Motor vehicle</option>
+                                <option value="Light Motor Lorry">Light Motor Lorry</option>
+                                <option value="Motor Lorry">Motor Lorry</option>
+                                <option value="Heavy Motor Lorry">Heavy Motor Lorry</option>
+                                <option value="Light Motor Coach">Light Motor Coach</option>
+                                <option value="Motor Coach">Motor Coach</option>
+                                <option value="Heavy Motor Coach">Heavy Motor Coach</option>
+                                <option value="Hand Tractors">Hand Tractors</option>
+                                <option value="Land Vehicle">Land Vehicle</option>
+                                <option value="Special purpose Vehicle">Special purpose Vehicle</option>
+                            </select><br>
+                        
+                            <label for="Vehicle Number">Vehicle Number</label><br>
+                            <input class="box2" type="text" id="Vehicle Number" required><br>
+
+                        
+                            <label for="Chassis Number">Chassis Number</label><br>
+                            <input class="box2" type="text" id="Chassis Number" required><br>
+                        
+                            <label for="Manufactured Date">Manufactured Date</label><br>
+                            <input class="box2" type="month" id="Manufactured Date" required><br>
+                        
+                            <label for="Registered Date">Registered Date</label><br>
+                            <input class="box2" type="date" id="Registered Date" required><br>
+                        
+                            <label for="Seats Including Driver's Seat">Seats Including Driver's Seat</label><br>
+                            <input class="box2" type="number" id="Seats Including Driver's Seat" required><br><br>
+                        
+
+                            <form action="upload.php" method="post" enctype="multipart/form-data">
+                                Select Scanned Copy of Your book to Upload :
+                                <input class="box4" type="file" name="fileToUpload" id="fileToUpload"><br>
+                                <input class="box3" type="submit" value="Upload Image" name="submit">
+                            </form>
+                        
+                            <form action="upload.php" method="post" enctype="multipart/form-data">
+                                Select Scanned Copy of the Valuation to Upload :
+                                <input class="box4" type="file" name="fileToUpload" id="fileToUpload" multiple><br>
+                                <input class="box3" type="submit" value="Upload Image" name="submit">
+                            </form>
+                        
+
+                            <form action="upload.php" method="post" enctype="multipart/form-data">
+                                Select Photos of your vehicle to Upload :
+                                <input class="box4" type="file" name="fileToUpload" id="fileToUpload" multiple><br>
+                                <input class="box3" type="submit" value="Upload Image" name="submit">
+                     
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+            </form>
+                    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                    <div class="icon-bar">
+                        <a class="active" href="#"><i class="fa fa-home"></i></a>
+                        <a href="#"><i class="fa fa-search"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><i class="fa fa-globe"></i></a>
+                        <a href="#"><i class="fa fa-trash"></i></a>
+                    </div>
+                -->
+
+            
+
+        </div>
+    
+    </body>
+</html>

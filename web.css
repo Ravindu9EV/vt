@@ -1,0 +1,143 @@
+body{
+    
+    background-image:url(firewatch-wallpaper-2560x1440.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+
+}
+img{
+    border-radius: 50%;
+}
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow:auto;
+    position: relative;
+    bottom: auto; 
+  }
+  
+  .icon-bar a {
+    float: left; 
+    text-align: center;
+    width: 20%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+.vehicle_details
+{
+  font-size: 25px;
+}
+.column1 {
+  position: absolute;
+  float: left;
+  width: 40%;
+  top: 34%;
+  left: 5%;
+  padding: 10px;
+  height: 600px;
+  color: #ffffff;
+  border-radius: 15px;
+  box-shadow:lab(from color l a b);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+ 
+}
+.column2 {
+  position: absolute;
+  left: 55%;
+  top: 34%;
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height:fit-content;
+  color: #ffffff;
+  border-radius: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fieldset_width{
+  height: 650px;
+  background-color: #535554;
+  opacity: 30%;
+  z-index: 3;
+}
+h1{
+  position: absolute;
+  TOP: 5%;
+  right: 25%;
+  font-size: 65px;
+}
+legend{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: x-large;
+  background-color: #4194e7;
+  margin: 10PX;
+  padding: 10PX;
+  z-index: 2;
+}
+form{
+  width: 100%;
+}
+.box1{
+  width: 100%;
+  padding: 5px;
+  border:navy;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 10px 0 10px 0;
+  background-color: #ffffff;
+  box-shadow:4px o 2px 0 #555;
+
+}
+.box2{
+  width: 100%;
+  padding: 5px;
+  border:navy;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 10px 0 0 0;
+  background-color: #ffffff;
+  box-shadow:4px o 2px 0 #555;
+
+}
+.box3{
+  width: 49%;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  background-color: #30475e;
+  color: white;
+
+}
+
+.bt1{
+  border-radius: 15px;
+  background-color: blue;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  bottom: 25%;
+  left: 40%;
+}
+.bt2{
+  color: #ffffff;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 35%;
+  left: 25%;
+}

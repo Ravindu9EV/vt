@@ -1,0 +1,126 @@
+body{
+    background-image: url(image/firewatch-wallpaper-2560x1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homebtn{
+    float: right;
+    margin: 30px;
+}
+
+.homebtn button{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+}
+
+.homebtn a{
+    
+    text-decoration: none;
+}
+.homebtn button{
+    cursor: pointer;
+}
+
+.homebtn button:hover{
+    color: red;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+}
+.heading{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+h3{
+    margin-top: 60px;
+    
+    font-weight: 300;
+    color: rgb(138, 143, 143);
+}
+.plans{
+   
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+   background-image: #181616;
+   backdrop-filter: blur(5px);
+    align-items: center;
+    /* /* padding-top: 80px; */
+     justify-content: center;
+   border: 1px solid black;
+   margin-left: 60px;
+
+}
+.plans button{
+    padding: 30px 70px;
+    background-color: coral;
+    color: rgb(151, 38, 38);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid rgb(69, 42, 32);
+}
+
+.tprtyPolicy,.fOptionPolicy{
+   z-index: 1;
+   display: flex;
+   flex-direction: row;
+   margin-left: 100px;
+}
+@media (max-width: 800px){
+    .container{
+        display: inline-block;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .homebtn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .heading{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        resize: vertical;
+        flex-direction: column;
+    }
+    h1,h3 {
+        margin: auto;
+        text-align: center;
+        resize: vertical;
+        font-size: auto;
+    }
+    .plans{
+        margin: auto;
+        flex-direction: column;
+        padding: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .plans button{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+        height: 100%;
+        resize: vertical;
+    }
+    
+}

@@ -1,0 +1,52 @@
+body
+{
+    background-image: url(firewatch-wallpaper-2560x1440.jpg);
+    display: flex;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.topic
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 900px;
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 5%;
+    color: white;
+    font-weight: bolder;
+}
+
+.full_option
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: center;
+    font-size: 65px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.third_party
+{
+    background: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    text-align: center;
+    font-size: 65px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
